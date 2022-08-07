@@ -5,7 +5,7 @@
 - Themenkomplex: 3
 
 # Nutzungshinweise
-Diese Implementierung eines reinforcment learning Ansatzs wurde mittels _Ray_ und OpenAI's _Gym_ umgesetzt.  
+Diese Implementierung eines reinforcement learning Ansatzes wurde mittels _Ray_ und OpenAI's _Gym_ umgesetzt.  
 Die run.py beinhaltet das Trainingsskript für ein Proximal Policy Optimization Algorithmus. Es kann jedoch aufgrund der Flexibilität
 von Ray Tune auch für andere kompatible Algorithmen genutzt werden. DQNs sind leider nicht für die Environment unterstützt,
 da mehrere diskrete Aktionen im Action Space durchgeführt werden müssen. Eine Liste aller zur Verfügung stehenden Algorithmen
@@ -38,7 +38,7 @@ starten.
 In der realen Welt ist die Disposition von Zügen eines der kritischsten Aufgaben von Fahrdienstleitern. Disposition bedeutet
 hier vereinfach dargestellt, welcher Zug vor welchem Zug auf einer Strecke fahren darf. In der erstellten Environment
 wurde eine vereinfachte Version eines Streckennetzes gebaut mit zwei Kreuzungen. Die Aufgabe des Agenten ist es basierend auf der
-Verspätung von Zügen zu entscheiden, welcher Zug Vorfahrt haben soll. Dafür kann er in jedem Step nur ein Signal pro Kreuzung auf _grün_
+Verspätung von Zügen zu entscheiden, welcher Zug Vorfahrt haben soll. Dafür kann er in jedem Step nur ein Signal pro Kreuzung auf _Grün_
 schalten. Als Vereinfachungen wurde u.a. die Welt als Gridworld dargestellt und die Weichen werden durch die Züge bedient.
 Vor allem letzteres ist sehr realitätsfremd, da dort Weichenstellung zum dispositiven Arbeitsfeld des Fahrdienstleiters gehört.
 Die erste Vereinfachung ist jedoch nicht vollkommen realitätsfern, da in der echten Zugfahrt Zugstrecken in Blöcke (von Signal
