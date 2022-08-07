@@ -5,7 +5,7 @@
 # Nutzungshinweise
 Für das Skript werden diverse Pakete benötigt. Diese können über 
 ```bash
-pip install -r requierements.txt
+pip install -r requirements.txt
 ```
 installiert werden. Es wird garantiert, dass die angegebenen Paketversionen für Python-Version >= 3.9 funktionieren.
 
