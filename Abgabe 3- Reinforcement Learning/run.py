@@ -12,7 +12,7 @@ seed = 123
 max_iter = 500  # how many iterations to train since no stop criterion is set
 ##########################################################################################
 # Ray inits
-ray.init(local_mode=True, ignore_reinit_error=True)  # local mode since it is not run on a distributed hardware cluster
+ray.init(local_mode=True, ignore_reinit_error=True)  # local mode since it is not run on a gpu
 RAY_IGNORE_UNHANDLED_ERRORS = 1
 
 print("--Start RL--")
