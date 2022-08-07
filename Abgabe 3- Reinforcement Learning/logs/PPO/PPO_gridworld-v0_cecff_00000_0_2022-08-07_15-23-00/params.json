@@ -1,0 +1,8 @@
+{
+  "env": "gridworld-v0",
+  "horizon": 400,
+  "num_gpus": 0,
+  "render_env": false,
+  "seed": 123,
+  "soft_horizon": false
+}
