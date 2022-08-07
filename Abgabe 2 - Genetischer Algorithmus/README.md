@@ -24,7 +24,7 @@ ist der Dokumentation im Quellcode zu entnehmen.
 # Motivation
 Das Skript simuliert ein genetisches Verfahren, um Individuen zu züchten, deren Fitness gegeben durch ihre Chromosome zu maximieren
 Dabei können die Gene der Individuen entweder _0_ oder _1_ annehmen. Als Fitnessfunktion wird die Summe aller Gene genutzt.
-Alternative Grundbeispiele, um ein solches Verfahren zu demonstieren wären u.a. das Problem des Handelsreisenden oder die Approximation von
+Alternative Grundbeispiele, um ein solches Verfahren zu demonstrieren wären u.a. das Problem des Handelsreisenden oder die Approximation von
 höher dimensionierten oder anderen Exponentialfunktionen durch im genetisch Verfahren bestimmten Koeffizienten einer polynomialen Funktion.
-Das hier umgesetzte Beispiel wurde inspiert durch https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3 und ergänzt um Methoden und Verfahren aus
+Das hier umgesetzte Beispiel wurde inspiriert durch https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3 und ergänzt um Methoden und Verfahren aus
 https://ls11-www.cs.tu-dortmund.de/lehre/SoSe03/PG431/Ausarbeitungen/GA_Selzam.pdf .
